@@ -26,7 +26,7 @@ class About extends Me {
         "NoSQL": ["Mongoose", "MongoDB"]
       }
     },
-    "APIProtocol": ["REST","Websockets",""],
+    "APIProtocol": ["REST","Websockets"],
     "CommunicationProtocol": ["HTTP/HTTPS", "Socket"],
     "Platforms": ["GNU/Linux", "Windows"],
     "Editors": ["Vscode", "Sublime"],
