@@ -1,16 +1,41 @@
-## Hi there 👋
 
-<!--
-**Gauravsharma-2002/Gauravsharma-2002** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+```dart
+// tools_I_use_organized
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class About extends Me {
+  const myTools = {
+    "Language": ["JavaScript", "TypeScript", "Python", "C++", "C"],
+    "Frameworks": {
+      "Frontend": {
+        "TypeScript": ["ReactJS", "NextJS"],
+        "JavaScript": ["ReactJS", "NextJS"]
+      },
+      "Backend": {
+        "TypeScript": ["ExpressJS"],
+        "JavaScript": ["ExpressJS"],
+      }
+    },
+    "Database": {
+      "Language": {
+        "SQL": ["MySQL", "SQLite"],
+        "NoSQL": ["MongoDB"]
+        },
+      "ORM": {
+        "SQL": ["Prisma" "MySQL","Sequelize"],
+        "NoSQL": ["Mongoose", "MongoDB"]
+      }
+    },
+    "APIProtocol": ["REST","Websockets",""],
+    "CommunicationProtocol": ["HTTP/HTTPS", "Socket"],
+    "Platforms": ["GNU/Linux", "Windows"],
+    "Editors": ["Vscode", "Sublime"],
+    "Additional": ["HTML", "CSS", "Bash", "JSON", "Markdown"],
+    "Scrum": ["Jira"],
+    "UiUx": ["Figma"],
+    "Git": ["Git Bash", "GitHub Desktop", "Git Kracken"],
+    "Additional" : ["GSAP", "Lenis"]
+   
+  };
+}
+```
